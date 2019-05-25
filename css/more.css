@@ -1,0 +1,150 @@
+body {
+  background: #eee url(../images/background4.jpg) no-repeat center 100px;
+  height: 780px;
+}
+#nav #selected a {
+  color: #9f5000;
+  text-decoration: underline #9f5000;
+}
+#nav #selected a:hover {
+  color: #868384;
+}
+
+#more {
+  width: 100%;
+  height: 574px;
+  margin: 0 auto;
+}
+#more-content {
+  width: 1000px;
+  margin: 0 auto;
+  height: 574px;
+  padding-top: 100px;
+  background-color: rgba(158, 149, 149, 0.514);
+}
+#more-content .intro-text {
+  padding-top: 130px;
+}
+
+#a-btn {
+  margin-top: 80px;
+  width: 100%;
+}
+#a-btn a {
+  color: #9f5000;
+  border-color: #9f5000;
+}
+#a-btn #b1 {
+  margin-right: 100px;
+  padding-left: 36px;
+  padding-right: 36px;
+}
+
+#note {
+  width: 100%;
+  background: #fff;
+}
+#note-content {
+  width: 1140px;
+  margin: 0 auto;
+}
+#note-content .h-title p {
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+}
+#n-cont {
+  display: block;
+}
+.n-row {
+  display: inline-block;
+  width: 100%;
+}
+#n-row1 {
+  margin-top: 70px;
+}
+
+
+#n-cont ul {
+  overflow: hidden; /*超出ul范围，因此内容*/
+  padding: 3em; /*调整ul的位置，使标签能够靠近中央显示,*/
+  width: 100%;
+}
+#n-cont li {
+  width: 30%;
+}
+#n-cont ul,
+#n-cont li {
+  list-style: none; /*去掉列表前的符号*/
+  float: left; /*设置为想左浮动，这样就可以把列表设置为*/
+  margin: 1em; /*设置外边距为1em*/
+}
+
+#n-cont ul li h2 {
+  font-size: 140%; /*设置字体大小是当前大小的140%*/
+  font-weight: bold; /*字体宽度为粗体*/
+  padding-bottom: 10px; /*底边内边距为10像素*/
+  color: #9f5000;
+}
+
+#n-cont ul li p {
+  font-family: "Reenie Beanie", Arial sans-serif, 微软雅黑; /*设置字体*/
+  font-size: 110%; /*大小为当前的110%*/
+}
+
+#n-cont ul li a {
+  display: block; /*将超链接转换为块*/
+  width: 70%;
+  height: 280px;
+  background: #eee;
+  text-decoration: none; /*去掉超链接的下划线*/
+  color: #000; /*字体颜色为黑色*/
+  padding: 1em; /*内边距为1em*/
+  -moz-box-shadow: 5px 5px 7px rgb(183, 174, 174); /*用于Firefox浏览器，给a超链接加阴影，x轴的偏移量为5像素，y轴的偏移量为7像素，rgb为颜色的一种写法（33，33，33）为颜色值，后面的1表示不透明*/
+  -webkit-box-shadow: 5px 5px 7px rgba(183, 174, 174, 7); /*Chrome，Safari浏览器*/
+  box-shadow: 5px 5px 5px rgb(183, 174, 174,7);
+  -webkit-transform: rotate(
+    -6deg
+  ); /*将a标签所转成的块，向左偏移6度*  transform:rotate()——旋转，scale()——放大，skew()倾斜,translate()——变动，位移，/
+       -o-transform:rotate(-6deg);
+       -moz-transform:rotate(-6deg);
+        -webkit-transition:1.5s linear;   /*CSS的transition允许CSS的属性值在一定的时间区间内平滑地过渡，transition:property(设置过度效果的css属性名称) dutation(过渡完成的时间) timing-function(速度效果的曲线) delay(定义效果如何开始)*/
+}
+#n-cont ul li:nth-child(even) a {
+  /*选择器，根据even，选择当前文档选择器选择li下的a超链接标签，选择第2/4/6...的li标签*/
+  -o-transform: rotate(4deg); /*向右旋转4度*/
+  -webkit-transform: rotate(4deg);
+  -moz-transform: rotate(4deg);
+  position: relative; /*绝对定位，为标签当前位置，距上5像素*/
+  top: 5px;
+  background: #eee;
+}
+
+#n-cont ul li:nth-child(3n) a {
+  -o-transform: rotate(-3deg); /*选择倍数为3的a超链接*/
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  position: relative;
+  top: -5px; /*向上5像素*/
+  background: #eee;
+}
+
+#n-cont ul li:nth-child(5n) a {
+  /*选择倍数为5的超链接*/
+  -o-transform: rotate(5deg);
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  position: relative;
+  top: -10px; /*向上10素*/
+}
+#n-cont ul li a:hover,
+#n-cont ul li a:focus {
+  /*当鼠标移动到a时或焦点在a时，触发以下效果*/
+  -moz-box-shadow: 10px 10px 7px rgba(183, 174, 174, 7); /*阴影的颜色和大小*/
+  -webkit-box-shadow: 10px 10px 7px rgba(183, 174, 174, 7);
+  box-shadow: 10px 10px 7px rgb(183, 174, 174,2);
+  -webkit-transform: scale(1.125); /*根据中心放大a标签，为1.25倍*/
+  -moz-transform: scale(1.125);
+  -o-transform: scale(1.125);
+  position: relative; /*绝对定位*/
+  z-index: 5; /*设置z-index为5是为了让正方形在放大的时候盖住其它的正方形，同时因为也设置了focus，所以也支持Tab键切换访问*/
+}

@@ -1,0 +1,278 @@
+body {
+  background: #eee url(../images/background2.jpg) no-repeat center 100px;
+  height: 780px;
+}
+hr {
+  height: 1px;
+  width: 70px;
+  text-align: center;
+  position: relative;
+  background: #666;
+  margin: 0 auto;
+  margin-bottom: 0px;
+  margin-bottom: 30px;
+  border: 0;
+}
+h2 {
+  font-size: 30px;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+
+#nav #selected a {
+  color: #28004d;
+  text-decoration: underline #28004d;
+}
+#nav #selected a:hover {
+  color: #868384;
+}
+
+#hobbys {
+  width: 100%;
+  height: 574px;
+  margin: 0 auto;
+}
+#hobby-content {
+  width: 1000px;
+  margin: 0 auto;
+  height: 574px;
+  padding-top: 100px;
+  background-color: rgba(158, 149, 149, 0.514);
+}
+.intro-text {
+  text-align: center;
+  color: #333;
+}
+#hobby-content .intro-text {
+  padding-top: 130px;
+}
+.intro-text h1 {
+  font-size: 60px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-bottom: 20px;
+  line-height: 1.1;
+}
+.intro-text p {
+  font-size: 20px;
+  margin-bottom: 70px;
+  margin-top: 20px;
+}
+.intro-text .btn {
+  text-transform: uppercase;
+  color: #28004d;
+  background-color: transparent;
+  padding: 14px 20px;
+  margin: 0;
+  font-size: 16px;
+  border-radius: 0;
+  margin-top: 20px;
+  line-height: 1.3333333;
+  touch-action: manipulation;
+  cursor: pointer;
+  border: 1px solid #28004d;
+}
+
+#comics {
+  width: 100%;
+  background: #fff;
+  
+}
+#comic-content {
+  width: 1140px;
+  margin: 0 auto;
+}
+.h-title {
+  text-align: center;
+}
+.h-title span {
+  font-size: 14px;
+}
+.h-title p {
+  padding: 50px;
+  font-family: "Lato", sans-serif;
+  color: #777;
+  margin: 0 auto 40px auto;
+  font-size: 14px;
+  line-height: 1.42857143;
+  width: 750px;
+}
+.divider {
+  background: #000;
+  height: 1px;
+  display: block;
+  margin: 20px auto;
+  width: 180px;
+}
+
+.row-team {
+  width: 1170px;
+  margin: 0 auto;
+}
+.team {
+  display: inline-block;
+  width: 100%;
+}
+.col-content {
+  width: 25%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 40px;
+}
+.col-content img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+.col-content h4 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: rgba(126, 88, 115, 0.192);
+  color: #fff;
+  margin: 0 0 0 15px;
+  text-align: center;
+  padding: 30px 0;
+  width: 262.5px;
+}
+
+#musics {
+  width: 100%;
+}
+#music-content {
+  width: 1140px;
+  margin: 0 auto;
+}
+#player {
+  width: 1170px;
+  margin: 0 auto;
+  display: inline-block;
+}
+#left-player {
+  display: block;
+  width: 35%;
+  float: left;
+}
+#music_board {
+  height: 500px;
+  width: 400px;
+  background: #999;
+  margin: 10% auto;
+  border-radius: 12px;
+  box-shadow: 0px 0px 15px #222;
+}
+#music_gif {
+  height: 280px;
+  width: 380px;
+  position: relative;
+  top: 20px;
+  left: 10px;
+  background: url("../images/music.jpg");
+  background-size: cover;
+}
+#music_control {
+  text-align: center;
+  position: relative;
+  top: 50px;
+  color: rgb(255, 255, 255);
+  font-size: 1.5em;
+}
+#control {
+  margin-top: 45px;
+  width: 100%;
+  height: 70px;
+  text-align: center;
+}
+#right-t {
+  display: block;
+  float: right;
+  width: 65%;
+}
+#r-texts {
+  margin: 5% auto;
+  height: 500px;
+}
+#Ircname {
+  font-size: 24px;
+  color: #333333;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: center;
+  line-height: 1.5;
+}
+#info {
+  text-align: center;
+  border-bottom: 1px solid #afaab7;
+  margin: 20px 20px 10px 20px;
+  padding-bottom: 10px;
+}
+#info p {
+  font-size: 14px;
+  color: #666666;
+  line-height: 32px;
+  display: inline;
+}
+#info span {
+  color: #28004d;
+  margin-right: 20px;
+}
+#Irc {
+  text-align: center;
+  overflow: hidden;
+}
+#Irc p {
+  text-align: center;
+  font-size: 14px;
+  color: #666666;
+  line-height: 24px;
+}
+
+#movies {
+  width: 100%;
+  background: #fff;
+}
+#movies .row-team {
+  display: block;
+}
+#movies .col-content h4 {
+  margin: 0;
+}
+.flipper {
+  height: 340.533px;
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+.flipper:hover div {
+  transform: rotateY(180deg);
+}
+.front,
+.back {
+  position: absolute;
+}
+.back {
+  transform: rotateY(180deg);
+}
+.front {
+  z-index: 9;
+  backface-visibility: hidden;
+}
+
+
